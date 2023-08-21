@@ -66,8 +66,8 @@ dependencies:
     specifier: ^15.8.1
     version: 15.8.1
   query-string:
-    specifier: ^7.1.1
-    version: 7.1.1
+    specifier: ^8.0.0
+    version: 8.0.0
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -770,6 +770,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -4325,9 +4326,9 @@ packages:
     dependencies:
       to-regex-range: 5.0.1
 
-  /filter-obj@1.1.0:
-    resolution: {integrity: sha512-8rXg1ZnX7xzy2NGDVkBVaAy+lSlPNwad13BtgSlLuxfIslyt5Vg64U7tFcCt4WS1R0hvtnQybT/IyCkGZ3DpXQ==}
-    engines: {node: '>=0.10.0'}
+  /filter-obj@5.1.0:
+    resolution: {integrity: sha512-qWeTREPoT7I0bifpPUXtxkZJ1XJzxWtfoWWkdVGqa+eCr3SHW/Ocp89o8vLvbUuQnadybJpjOKu4V+RwO6sGng==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /find-up@2.1.0:
@@ -6998,14 +6999,13 @@ packages:
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
     dev: true
 
-  /query-string@7.1.1:
-    resolution: {integrity: sha512-MplouLRDHBZSG9z7fpuAAcI7aAYjDLhtsiVZsevsfaHWDS2IDdORKbSd1kWUA+V4zyva/HZoSfpwnYMMQDhb0w==}
-    engines: {node: '>=6'}
+  /query-string@8.0.0:
+    resolution: {integrity: sha512-mB9U/uR7+1ZTzHMMlkk06qH74bKeNkZXzZXxLpoOfypAR9AVhVcYhvOnFtiosoS6Mf7rNwsLhnzeefgZMgCE/A==}
+    engines: {node: '>=14.16'}
     dependencies:
       decode-uri-component: 0.2.2
-      filter-obj: 1.1.0
+      filter-obj: 5.1.0
       split-on-first: 1.1.0
-      strict-uri-encode: 2.0.0
     dev: false
 
   /querystringify@2.2.0:
@@ -7788,11 +7788,6 @@ packages:
 
   /stream-shift@1.0.1:
     resolution: {integrity: sha512-AiisoFqQ0vbGcZgQPY1cdP2I76glaVA/RauYR4G4thNFgkTqr90yXTo4LYX60Jl+sIlPNHHdGSwo01AvbKUSVQ==}
-    dev: false
-
-  /strict-uri-encode@2.0.0:
-    resolution: {integrity: sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==}
-    engines: {node: '>=4'}
     dev: false
 
   /string-width@4.2.3:
